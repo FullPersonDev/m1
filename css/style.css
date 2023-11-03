@@ -86,6 +86,9 @@ p {
     background-color: #2589bd;
 }
 
+/*I consolidated the benefits sections classes into just .benefit-sections
+because they are being styled in the with the same properties and same values
+that way we only need to write one class name instead of three.*/
 .benefit-sections {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,7 +105,11 @@ p {
     max-width: 150px;
 }
 
-.content-sections {
+ /*I placed these classes together to make the css code cleaner and condensed.
+ These classes are being styled the same way.*/
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -111,11 +118,15 @@ p {
     color: #ffffff;
 }
 
-.content-sections img {
+ /*I placed these classes together to make the css code cleaner and condensed.
+ These classes are being styled the same way.*/
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
     max-height: 200px;
 }
 
-.content-sections h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
